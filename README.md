@@ -1,5 +1,3 @@
-## Hi there 👋
-
 <h1 align="center">Hi 👋, I'm Rachid Hamili</h1>
 <h3 align="center">A passionate Data Analyst from the US, currently living in Germany</h3>
 
