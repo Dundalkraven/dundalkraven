@@ -29,7 +29,10 @@
 <p align="left">
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/rachid-hamili-29692127a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/rachid-hamili-29692127a/" height="30" width="40" /></a>
 <a href="https://kaggle.com/https://www.kaggle.com/rachidlewagon" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="https://www.kaggle.com/rachidlewagon" height="30" width="40" /></a>
-<a href="https://fb.com/https://www.facebook.com/rachid.hamili" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/rachid.hamili" height="30" width="40" /></a>
+<a href="https://www.facebook.com/rachid.hamili" target="blank">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="30" width="40" />
+</a>
+
 <a href="https://instagram.com/numediadigest2024" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="numediadigest2024" height="30" width="40" /></a>
 <a href="https://www.youtube.com/@WiseQuotes-n1" target="blank">
   <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="YouTube" height="30" width="40" />
