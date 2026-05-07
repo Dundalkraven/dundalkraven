@@ -71,8 +71,4 @@
   </tr>
 </table>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=dundalkraven&show_icons=true&locale=en&layout=compact" alt="dundalkraven" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=dundalkraven&show_icons=true&locale=en" alt="dundalkraven" /></p>
-
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dundalkraven&" alt="dundalkraven" /></p>
