@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Rachid Hamili</h1>
-<h3 align="center">A passionate Data Analyst from the US, currently living in Germany</h3>
+<h3 align="center">A passionate Data Analyst , with strong involvement in the solar energy and energy management technology sector. Experienced in working remotely on data-driven solutions, monitoring systems, and performance optimization for renewable energy projects and smart energy infrastructures</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dundalkraven&label=Profile%20views&color=0e75b6&style=flat" alt="dundalkraven" /> </p>
 
