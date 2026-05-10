@@ -1,10 +1,22 @@
 import requests
+import sys
 from docxtpl import DocxTemplate
 import os
 import datetime
 
+import sys
+import requests
+from docxtpl import DocxTemplate
+import os
+
+# --- DYNAMIC CONFIGURATION ---
+# This looks for the ID sent by the Word button
+if len(sys.argv) > 1:
+    ISSUE_ID = sys.argv[1]
+else:
+    ISSUE_ID = "sysdes-35479" # Fallback if run manually
+
 # --- CONFIGURATION ---
-ISSUE_ID = "sysdes-33612"
 TOKEN = "perm-ci5oYW1pbGk=.NzctMTM3.2DmnYBuMYzQf04AlOrYtisyZago3Rm"
 BASE_URL = "https://youtrack.meteocontrol.de/api"
 
@@ -23,7 +35,7 @@ def get_issue_data():
         response = requests.get(f"{BASE_URL}/issues/{ISSUE_ID}", headers=headers, params=params, timeout=10)
         
         if response.status_code != 200:
-            print(f"❌ API Error: {response.status_code}")
+            print(f"API Error: {response.status_code}")
             return None
         
         issue = response.json()
@@ -90,23 +102,25 @@ def get_issue_data():
         return context
 
     except Exception as e:
-        print(f"❌ Script Error: {e}")
+        print(f"Script Error: {e}")
         return None
 
 def main():
     data = get_issue_data()
     if not data: return
 
-    template_file = "template.docx"
-    output_file = f"Rapport_{ISSUE_ID}.docx"
+    # Use absolute paths to avoid confusion
+    folder_path = r"C:\Users\r.hamili\youtrack-report"
+    template_file = os.path.join(folder_path, "template2.docx")
+    output_file = os.path.join(folder_path, f"Rapport_{ISSUE_ID}.docx")
 
     try:
         doc = DocxTemplate(template_file)
         doc.render(data)
         doc.save(output_file)
-        print(f"🎉 SUCCESS: {output_file} generated with static Chronology rows.")
+        print(f"🎉 SUCCESS: {output_file} generated.")
     except Exception as e:
-        print(f"❌ Error: {e}")
+        print(f"Error: {e}")
 
 if __name__ == "__main__":
     main()
